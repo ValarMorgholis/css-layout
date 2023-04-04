@@ -1,0 +1,32 @@
+body {
+  font-family: koloche;
+  background-color: black;
+}
+a {
+  color: rgb(148, 24, 225);
+  text-decoration: none;
+  font-size: 25px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  margin: 35px 0px 20px 45px;
+  transition: 1s;
+}
+.container {
+  border: 2px solid white;
+}
+figure {
+  border: 2px solid white;
+  width: 300px;
+  height: 350px;
+  float: left;
+  cursor: pointer;
+}
+figure:hover img {
+  transform: scale(1) rotate(360deg);
+}
+figcaption {
+  text-align: center;
+}
